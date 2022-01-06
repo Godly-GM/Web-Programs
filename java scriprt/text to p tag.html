@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body style="text-align:center;">
+    <h2>  
+       Copy Text to P tag     
+    </h2>
+    
+   
+    Name:<input type="text" id="myText" value="">
+    <button type="button" onclick="myFunction()">Try it</button>
+    <p id="demo" style="font-weight:bolder"></p>
+  
+      
+    <script>
+   	 function myFunction() 
+		{
+      	  		var x = document.getElementById("myText").value;
+        		document.getElementById("demo").innerHTML = x;
+    		}
+    </script>
+
+</body>
+
+  
+</html>
