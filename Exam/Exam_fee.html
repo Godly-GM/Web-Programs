@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+          <div class="header_page">
+              <a href="#"><h1>Home</h1></a>
+          </div>
+          
+     </header>
+   
+   <form onsubmit="return exam()" action="Home.html"> 
+
+
+     <br><br>
+     <h1 align="center" style="font-weight: bolder;">Exam Payment</h1>
+     <br><br>
+     <div class="home_div" align="center">
+        <p style="font-weight: bolder;">Please Fill the Fields</p>
+        <table align="center" style="font-weight: bolder;">
+        	<tr>
+        		<td>Course Code</td>
+        		<td><input type="text" value="S1MCA" required id="cc"></td>
+        	</tr>
+        	<tr>
+        		<td>Amount</td>
+        		<td height="40"><input type="number" min="1" id="am" required ></td>
+        	</tr>
+
+        	<tr>
+
+        		<td></td>
+        		<td height="40">
+        			<input type="submit" value="PAY" class="button">
+        			  <!-- <button type="submit" class="btn">submit</button > -->
+
+        		</td>
+        	</tr>
+        	
+        </table>
+        
+    </div>
+
+  </form>
+
+
+</body>
+</html>
